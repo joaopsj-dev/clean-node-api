@@ -1,5 +1,3 @@
-/* eslint-disable @typescript-eslint/no-confusing-void-expression */
-/* eslint-disable @typescript-eslint/return-await */
 import { type AccountModel } from '../../../domain/models/account'
 import { type AddAccountModel, type AddAccount } from '../../../domain/usecases/add-account'
 import { type Encrypter } from '../../protocols/encrypter';

@@ -1,5 +1,3 @@
-/* eslint-disable @typescript-eslint/return-await */
-/* eslint-disable @typescript-eslint/no-confusing-void-expression */
 import { type EmailValidator, type AccountModel, type AddAccountModel, type AddAccount } from './signup-protocols'
 import { InvalidParamError, MissingParamError, ServerError } from '../../errors'
 import { SignUpController } from './signup'
