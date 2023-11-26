@@ -21,13 +21,5 @@ export const MongoHelper = {
       await this.connect(this.uri)
     }
     return this.client.db().collection(name)
-  },
-
-  async clear () {
-    const collections = await this.client.db().collections()
-
-    for (const collection of collections) {
-      await collection.deleteMany();
-    }
   }
 }
