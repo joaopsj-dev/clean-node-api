@@ -5,6 +5,7 @@ export const MongoHelper = {
   uri: null as string,
 
   async connect (uri: string) {
+    this.uri = uri
     this.client = await MongoClient.connect(uri, {
       retryWrites: true,
       w: 'majority'
